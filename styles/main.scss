@@ -1,0 +1,164 @@
+@mixin flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin bg-img($bg) {
+  background-image: $bg;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin list-unstyled {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-intro {
+  padding-top: 32px;
+  padding-bottom: 40px;
+  @include flexbox;
+}
+
+.hamburg-btn {
+  width: 16px;
+  height: 15px;
+  background-color: transparent;
+  border: none;
+  @include bg-img(url("../images/Combined\ Shape.svg"));
+}
+.bg-img {
+  @include bg-img(url("../images/bg.png"));
+
+  text-align: center;
+  padding: 100px 24px;
+  border-radius: 10px;
+}
+
+.heading {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: none;
+  font-variation-settings: "opsz" 9;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #fff;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fefcf7;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.btn {
+  border: none;
+  padding: 15px 31px;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: none;
+  font-variation-settings: "opsz" 9;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #0e8784;
+  color: #fff;
+  margin-top: 39px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.92px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+
+.navbar {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .hamburg-btn {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .navbar-list {
+    @include list-unstyled;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+  }
+
+  .text-box {
+    width: 368px;
+  }
+
+  .text {
+    text-align: left;
+  }
+
+  .bg-img {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .bg-img {
+    padding: 117px 85px;
+  }
+
+  .heading {
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .text-box {
+    width: 493px;
+  }
+
+  .tetx-boxs {
+    width: 440px;
+  }
+}
