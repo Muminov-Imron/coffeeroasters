@@ -166,6 +166,122 @@ a {
   color: #333d4b;
 }
 
+.wrapper-two {
+  padding-top: 120px;
+}
+
+.black-wrapper {
+  width: 327px;
+  background-color: #2a3038;
+  padding-bottom: 637px;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.black-text-wrapper {
+  width: 327px;
+  background-color: #2e343d;
+  color: #fefcf7;
+  padding-top: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  border-radius: 10px;
+}
+
+.black-heading {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: none;
+  font-variation-settings: "opsz" 9;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.black-text {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+}
+
+.blue-wrapper {
+  display: block;
+  padding-top: 40px;
+  position: absolute;
+  left: 24px;
+}
+
+.blue-card {
+  width: 279px;
+  border-radius: 8px;
+  background-color: #0e8784;
+  padding-top: 72px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 51px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.blue-icon {
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin: 0 auto;
+}
+
+.blue-icons {
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin: 0 auto;
+}
+
+.blue-text-wrapper {
+  width: 210px;
+  color: #fefcf7;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+.blue-text-wrapper-two {
+  width: 225px;
+  color: #fefcf7;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+.blue-title {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: none;
+  font-variation-settings: "opsz" 9;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.blue-text {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+}
 @media only screen and (min-width: 768px) {
   .hamburg-btn {
     display: none;
@@ -222,6 +338,52 @@ a {
     width: 689px;
     height: 118px;
     text-align: center;
+  }
+
+  .black-wrapper {
+    width: 688px;
+    padding-bottom: 359px;
+  }
+
+  .black-text-wrapper {
+    width: 688px;
+    background-color: #2a3038;
+  }
+
+  .blac-text-wrapper {
+    width: 495px;
+    margin: 0 auto;
+  }
+
+  .blue-card {
+    width: 573px;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    margin-left: 33px;
+    padding: 0;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .blue-text-wrapper {
+    width: 340px;
+    padding: 0;
+  }
+
+  .blue-text-wrapper-two {
+    width: 340px;
+    padding: 0;
+  }
+
+  .blue-text {
+    text-align: left;
+  }
+
+  .blue-title {
+    text-align: left;
   }
 }
 
@@ -284,5 +446,49 @@ a {
   .name-logo {
     width: 100%;
     height: 196px;
+  }
+
+  .black-wrapper {
+    width: 1280px;
+    padding-bottom: 259px;
+  }
+
+  .black-text-wrapper {
+    width: 100%;
+    background-color: #2a3038;
+  }
+
+  .blue-wrapper {
+    display: flex;
+    margin-left: 23px;
+  }
+
+  .blue-card {
+    width: 350px;
+    display: block;
+
+    padding: 0;
+    padding-top: 72px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .blue-text-wrapper {
+    width: 240px;
+    margin-top: 67px;
+  }
+
+  .blue-text-wrapper-two {
+    width: 240px;
+    margin-top: 67px;
+  }
+
+  .blue-text {
+    text-align: center;
+  }
+
+  .blue-title {
+    text-align: center;
   }
 }
